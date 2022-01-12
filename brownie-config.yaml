@@ -1,9 +1,11 @@
 dependencies:
+  - Uniswap/v3-periphery@1.0.0
   - Uniswap/v2-core@1.0.1
   - sbvegan/v2-periphery@latest
 compiler:
   solc:
     remappings:
+      - "@uniswap-v3-periphery=Uniswap/v3-periphery@1.0.0"
       - "@uniswap-v2-core=Uniswap/v2-core@1.0.1"
       - "@uniswap-v2-periphery=sbvegan/v2-periphery@latest"
 dotenv: .env
