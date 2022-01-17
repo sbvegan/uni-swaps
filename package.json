@@ -1,0 +1,37 @@
+{
+  "name": "uni-swaps",
+  "version": "1.0.0",
+  "description": "implement uniswap swaps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbvegan/uni-swaps.git"
+  },
+  "keywords": [
+    "uniswap",
+    "dex",
+    "swap"
+  ],
+  "author": "soyboy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sbvegan/uni-swaps/issues"
+  },
+  "homepage": "https://github.com/sbvegan/uni-swaps#readme",
+  "dependencies": {
+    "@uniswap/sdk-core": "^3.0.1",
+    "@uniswap/v3-sdk": "^3.8.1",
+    "dotenv": "^14.0.0",
+    "ethers": "^5.5.3",
+    "i": "^0.3.7",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "tslib": "^2.3.1"
+  }
+}
